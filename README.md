@@ -94,7 +94,10 @@ Represents the follower relationship between users.
 ## Relationships
 
 - **User** can write **Reviews** and create **Playlists**.
-- **User**
+- **User** can follow other **Users** through the **Follower** relationship.
+- **Song** can be included in multiple **Reviews** and **Playlists**.
+- **Review** connects a **User** to a **Song**.
+- **Playlist** contains **PlaylistSongs**, representing the songs in the playlist with their order.
 
 
 
